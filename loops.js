@@ -32,3 +32,10 @@
 //       console.log(number);
 //     }
 //   }
+
+//Output an increasing number of # symbols, from 1 to 7
+let output = " ";
+for (let i = 1; i <= 7; i++) {
+    output += "#";
+    console.log(output);
+}
